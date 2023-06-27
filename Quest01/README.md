@@ -1,6 +1,6 @@
 # AIFFEL Campus Online 4th Code Peer Review Templete
-- 코더 : 대장님 김소연
-- 리뷰어 : 부하 이진영
+- 코더 : 코더 1인의 이름을 작성하세요.
+- 리뷰어 : 본인의 이름을 작성하세요.
 
 
 # PRT(PeerReviewTemplate) 
