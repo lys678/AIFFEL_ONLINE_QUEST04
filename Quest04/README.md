@@ -71,10 +71,10 @@ def show_fish_movement_Generator(fish_list):
 
 
     movements = generate_movements()                        # 변수선언을 통해 제너레이터를 바인딩한다.
-    while True:                                                               # while True를 이용해서 무한하게 반복문을 시행합니다.
+    while True:                                                               # next() 함수를 이용하기 위해 while True를 이용해서 무한하게 반복문을 시행합니다.
         try:
             sl(2)
-            fish_movement = next(movements)                                        #next()함수를 이용해서 yield값을 차례대로 출력합니다.
+            fish_movement = next(movements)                                   # next()함수를 이용해서 yield값을 차례대로 출력합니다.
             print(fish_movement)
         except StopIteration:                                                  # 제너레이터에서 더 이상 반환한 값이 없을때 break를 시행합니다.
             break
